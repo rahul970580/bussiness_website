@@ -1,0 +1,38 @@
+.cta-download {
+    position: relative;
+    padding: 80px 0;
+}
+.overlay:before {
+    content: '';
+    background: rgba(125, 113, 211, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.bg-3 {
+    background: url(../images/backgrounds/desk-bg.jpg) fixed no-repeat;
+    background-size: cover;
+}
+
+.cta-download .image-block {
+    position: absolute;
+    top: -70px;
+    left: 100px;
+}
+.phone-thumb {
+    max-height: 550px;
+}
+.cta-download .content-block h2 {
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+.content-block{
+    position: relative;
+}
+.cta-download .content-block h2, .cta-download .content-block p {
+    color: #fff;
+}

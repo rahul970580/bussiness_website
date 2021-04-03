@@ -1,0 +1,23 @@
+.footer-main {
+    padding: 50px 0;
+    background: #7d71d3;
+}
+.footer-main .footer-logo {
+    margin-bottom: 15px;
+}
+.footer-main .copyright {
+    opacity: .7;
+}
+.footer-main .copyright p {
+    color: #fff;
+    line-height: 27px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.list-inline-item a {
+    color: #fff;
+    text-decoration: none;
+}

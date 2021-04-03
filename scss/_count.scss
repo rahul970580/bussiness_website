@@ -1,0 +1,26 @@
+.count {
+    padding-top: 180px;
+}
+.bg-gray {
+    background: #f8f8f8;
+}
+.count .counter-item {
+    text-align: center;
+    background: #7d71d3;
+    padding: 40px 0;
+    border-radius: 8px;
+}
+.count .counter-item h3 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 36px;
+}
+.count .counter-item h3, .count .counter-item p {
+    color: #fff;
+    text-transform: uppercase;
+}
+ .count .counter-item p {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 27px;
+}

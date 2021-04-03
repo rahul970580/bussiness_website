@@ -1,0 +1,61 @@
+
+  
+  .bg-1 {
+    background: url(../images/backgrounds/banner-bg.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  // Banner Styles
+.banner {
+	padding: 150px 0 100px;
+	min-height: 100vh;
+}
+.banner .content-block h1 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    margin-bottom: 30px;
+    
+}
+.banner .content-block h5{
+    color: #fff;
+    margin-bottom: 75px;
+}
+
+
+.phone-thumb {
+max-height: 550px;
+}
+.app-badge ul li.list-inline-item:not(:last-child) {
+    margin-right: 25px;
+}
+.btn-download i {
+    font-size: 40px;
+    margin-right: 10px;
+}
+.btn-download span {
+    display: block;
+    font-size: 20px;
+}
+.app-badge.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.app-badge .btn-download {
+    padding: 10px 25px;
+    font-size: 14px;
+    background: #232323;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.app-badge .btn-download:hover{
+    color: aqua;
+}
+.app-badge .btn:hover{
+    color: none !important;
+}

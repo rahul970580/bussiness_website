@@ -1,0 +1,66 @@
+
+.section {
+    padding: 100px 0;
+}
+.bg-2 {
+    background: url(../images/backgrounds/elipse-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.phone-thumb-md {
+    max-height: 600px;
+}
+
+.about .about-block .about-item:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.about .about-block .about-item {
+.icon {
+    width: 50px;
+    & i{
+        font-size: 48px;
+    }
+    
+}
+}
+.about .about-block .about-item{
+    background: #fff;
+    display: flex;
+    padding: 30px;
+    
+
+}
+
+
+.about .about-block .about-item .content{
+    margin-left: 30px;
+}
+
+.about .about-block .about-item .icon i {
+    font-size: 48px;
+    color: #7d71d3;
+}
+
+.about .about-block .about-item .content h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.about .about-block .about-item .content p {
+    line-height: 27px;
+}
+
+.about .about-block .about-item.active {
+    background: #7d71d3;
+}
+.about .about-block .about-item.active .icon i {
+    color: #fff;
+}
+.about .about-block .about-item.active .content h5, .about .about-block .about-item.active .content p {
+    color: #fff;
+}
+.about .about-block .about-item.active .content h5, .about .about-block .about-item.active .content p {
+    color: #fff;
+}
